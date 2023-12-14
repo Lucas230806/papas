@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    display: flex;
+}
+
+.list-group-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-group-item p{
+    font-size:1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.list-group-item span{
+    display: block;
+    font-size: .9rem;
+    font-weight: normal;
+}
+
+.action{
+    display: flex;
+    gap: 4px;
+}
+
